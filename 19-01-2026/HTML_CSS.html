@@ -51,3 +51,130 @@
 
 </body>
 </html>
+
+<table>
+    <tr>
+        <th>Название</th>
+        <th>Цена</th>
+        <th>Количество</th>
+    </tr>
+    <tr>
+        <td>Яблоки</td>
+        <td>50 ₽</td>
+        <td>10 кг</td>
+    </tr>
+    <tr>
+        <td>Бананы</td>
+        <td>80 ₽</td>
+        <td>5 кг</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>Названия шоу</th>
+        <th>Дата основания</th>
+        <th>Количество участников</th>
+    </tr>
+    <tr>
+        <td>Уральские пельмени</td>
+        <td>1993 год </td>
+        <td>13 человек</td>
+    </tr>
+    <tr>
+        <td>Однажды в России</td>
+        <td>2014 год</td>
+        <td>26 человек</td>
+    </tr>
+</table>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Мой сайт</title>
+    <style>
+        th {
+            border: 1px solid black;
+            text-align: center;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        tr {
+            background-color: MediumSpringGreen
+        }
+    </style>
+</head>
+<body>
+    <h1>Добро пожаловать на мой сайт</h1>
+    <p>Это пример простой HTML-страницы.</p>
+    <p>Упорядоченный список.</p>
+    <ol style="margin: 0px; padding-left: 10px;">
+        <li>Первый шаг</li>
+        <li>Второй шаг</li>
+        <li>Третий шаг</li>
+        <li>Четвертый шаг</li>
+    </ol>
+    <p>Неупорядоченный список.</p>
+    <ul style="list-style-position: outside;">
+        <li>Первый шаг</li>
+        <li>Второй шаг</li>
+        <li>Третий шаг</li>
+        <li>Четвертый шаг</li>
+    </ul>
+    <p>Список описания</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Язык разметки для создания веб-страниц.</dd>
+        <dt>CSS</dt>
+        <dd>Язык стилей для оформления веб-страниц.</dd>
+    </dl>
+    <p>Вложенный список.</p>
+        <ul>
+            <li>Первый шаг
+                <ul>
+                    <li>Первый шаг</li>
+                    <li>Второй шаг</li>
+                    <li>Третий шаг</li>
+                    <li>Четвертый шаг</li>
+                </ul>
+            </li>
+            <li>Второй шаг</li>
+            <li>Третий шаг</li>
+        </ul>
+    <p>Таблица.</p>
+    <table style="border: 1px solid black; border-collapse: collapse; background-color: DarkGreen">
+        <caption> Моя таблица </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Название</th>
+                <th>Цена</th>
+                <th>Количество</th>
+                <th>Поставщик</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background-color: Crimson">Яблоки</td>
+                <td>50 ₽</td>
+                <td>10 кг</td>
+                <td>Газпром</td>
+            </tr>
+            <tr>
+                <td>Бананы</td>
+                <td>80 ₽</td>
+                <td>5 кг</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Итого</td>
+                <td>50тыс. выручка</td>
+                <td>15 кг овощей</td>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="https://example.com">Перейти по ссылке</a>
+</body>
+</html>
