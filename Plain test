@@ -1,0 +1,8 @@
+Не забыть:
+pip install -r .\requirements.txt
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+scoop install allure
+scoop install git
+scoop install openjdk21-r
