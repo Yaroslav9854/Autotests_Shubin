@@ -1,3 +1,3 @@
 import pytest
 import selenium
-import allure-pytest
+import allure
