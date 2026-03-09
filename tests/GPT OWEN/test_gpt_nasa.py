@@ -91,3 +91,6 @@ def nasa_vehicles_data():
 def test_with_fixture(nasa_vehicles_data):
     """Пример использования фикстуры"""
     assert nasa_vehicles_data is not None
+
+
+

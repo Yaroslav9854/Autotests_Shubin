@@ -21,3 +21,4 @@ def test_get_mission():
             assert mis_response.status_code != 500
     print(response.status_code)
     assert response.status_code == 200
+

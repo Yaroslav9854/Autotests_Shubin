@@ -42,3 +42,5 @@ class TestVehicleExistence:
             return vehicles_data.get('name', '').lower() == vehicle_name.lower()
         return False
 
+
+
