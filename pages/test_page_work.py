@@ -4,16 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
-@pytest.fixture(scope='function')
-def driver():
-    chrome = webdriver.Chrome()
-    yield chrome
-    chrome.quit()
-
-class LitresPage:
-    URL = "https://www.litres.ru"
-    maximize_window = ()
-    implicitly_wait = (10)
 
 
 def test_dz_8(close_session):
